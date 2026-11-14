@@ -253,7 +253,7 @@
           "time": "Around 8:30 PM JST",
           "title": "Sapporo check-in",
           "location": "Sapporo",
-          "description": "Tentative one-night stay, February 18–19. Allow time to reach accommodation. Not booked.",
+          "description": "Tentative two-night stay, February 18–20; second-night availability and price still need confirmation. Allow time to reach accommodation. Not booked.",
           "status": "Tentative",
           "refs": []
         },
@@ -272,6 +272,35 @@
     },
     {
       "n": 19,
+      "tags": [
+        "Sapporo"
+      ],
+      "title": "A full day in Sapporo",
+      "place": "Sapporo",
+      "events": [
+        {
+          "time": "Full day JST · Details TBD",
+          "title": "Explore Sapporo",
+          "location": "Sapporo",
+          "description": "Full day for sightseeing, food and exploring the city. Activities and reservations remain to be selected.",
+          "status": "Tentative",
+          "refs": [
+            "susukino",
+            "lights"
+          ]
+        },
+        {
+          "time": "Evening JST · Time TBD",
+          "title": "Second night in Sapporo",
+          "location": "Sapporo",
+          "description": "Tentatively extend accommodation through February 20. Second-night room availability and price remain unconfirmed.",
+          "status": "Tentative",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 20,
       "tags": [
         "Sapporo",
         "Jozankei",
@@ -303,7 +332,7 @@
           "time": "9:18 AM JST → Around 10:10 AM",
           "title": "Kappa Liner · Proposed bus",
           "location": "Susukino → Jozankei",
-          "description": "Proposed departure from the published timetable; recheck February 19 service. Select the stop nearest the overnight hotel. Advance reservation required; not booked.",
+          "description": "Proposed departure from the published timetable; recheck February 20 service. Select the stop nearest the overnight hotel. Advance reservation required; not booked.",
           "status": "Tentative",
           "refs": [
             "kappa"
@@ -340,7 +369,7 @@
           "time": "12:30–2 PM JST",
           "title": "FRILUFSLIV guided snowshoeing",
           "location": "Jozankei forest",
-          "description": "Published 12:30 PM session, about 90 minutes including meeting and dismissal. Includes forest exploration, bonfire and roasted marshmallows. Listed adult price: JPY 7,500; rental boots JPY 500 extra; cash only. February 19 availability and English guiding remain unconfirmed. Not booked.",
+          "description": "Published 12:30 PM session, about 90 minutes including meeting and dismissal. Includes forest exploration, bonfire and roasted marshmallows. Listed adult price: JPY 7,500; rental boots JPY 500 extra; cash only. February 20 availability and English guiding remain unconfirmed. Not booked.",
           "status": "Tentative",
           "refs": [
             "snowshoe"
@@ -398,14 +427,14 @@
           "time": "After 8:30 PM JST",
           "title": "Relax & overnight in Jozankei",
           "location": "Jozankei",
-          "description": "Tentative one-night stay, February 19–20. Hotel and room arrangement remain open.",
+          "description": "Tentative one-night stay, February 20–21. Hotel and room arrangement remain open.",
           "status": "Tentative",
           "refs": []
         }
       ]
     },
     {
-      "n": 20,
+      "n": 21,
       "tags": [
         "Jozankei",
         "Niseko",
@@ -415,7 +444,7 @@
       "place": "Jozankei → Niseko",
       "events": [
         {
-          "time": "Time TBD",
+          "time": "Morning JST · Time TBD",
           "title": "Jozankei check-out",
           "location": "Jozankei · Property TBD",
           "description": "Accommodation and checkout time remain open.",
@@ -423,10 +452,10 @@
           "refs": []
         },
         {
-          "time": "Time TBD",
+          "time": "Morning departure JST · Arrival TBD",
           "title": "Transfer to Niseko",
           "location": "Jozankei → Niseko",
-          "description": "Route, transport provider, departure and arrival times remain to be selected. No direct service is assumed.",
+          "description": "Travel to Niseko in the morning. Route, provider, exact departure and arrival remain to be selected. No direct service is assumed.",
           "status": "Open for planning",
           "refs": []
         },
@@ -434,7 +463,7 @@
           "time": "Time TBD",
           "title": "Niseko check-in",
           "location": "Niseko · Property TBD",
-          "description": "Start of the tentative five-night stay, February 20–24. Accommodation is not booked.",
+          "description": "Start of the tentative four-night stay, February 21–24. Accommodation is not booked.",
           "status": "Open for planning",
           "refs": []
         },
@@ -444,24 +473,6 @@
           "location": "Niseko",
           "description": "Preparation details remain to be planned.",
           "status": "Tentative",
-          "refs": []
-        }
-      ]
-    },
-    {
-      "n": 21,
-      "tags": [
-        "Niseko"
-      ],
-      "title": "Mountain days, your way",
-      "place": "Niseko",
-      "events": [
-        {
-          "time": "Time TBD",
-          "title": "Skiing, rest or other activities",
-          "location": "Niseko",
-          "description": "Available day; the specific activity, ski area, tickets and reservations have not been selected.",
-          "status": "Open for planning",
           "refs": []
         }
       ]

@@ -1,0 +1,481 @@
+{
+  "audience": "public",
+  "lastUpdated": "2026-11-14",
+  "privacy": "Only this public itinerary is published. Flight numbers, airlines, exact flight times, hotel names and addresses, booking references, passenger details and private notes stay in the private itinerary.",
+  "days": [
+    {
+      "n": 13,
+      "tags": [
+        "Travel"
+      ],
+      "title": "The journey begins",
+      "place": "Atlanta → Tokyo",
+      "events": [
+        {
+          "time": "Travel day · Details private",
+          "title": "Depart for Japan",
+          "location": "Atlanta → Tokyo",
+          "description": "Overnight journey; arrival in Japan on February 14.",
+          "status": "Booked",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "tags": [
+        "Tokyo",
+        "Travel"
+      ],
+      "title": "Hello, Tokyo",
+      "place": "Haneda → Tokyo",
+      "events": [
+        {
+          "time": "Arrival day · Details private",
+          "title": "Arrive in Japan",
+          "location": "Tokyo",
+          "description": "Arrive in Japan and continue to accommodation. Specific flight arrangements are kept privately.",
+          "status": "Booked",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Airport transfer",
+          "location": "Haneda → Tokyo accommodation",
+          "description": "Transfer service and departure time remain to be selected.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Tokyo check-in",
+          "location": "Tokyo · Property TBD",
+          "description": "Start of the tentative four-night stay, February 14–17. Accommodation is not booked.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "tags": [
+        "Tokyo"
+      ],
+      "title": "Explore Tokyo",
+      "place": "Tokyo",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Open for planning",
+          "location": "Tokyo",
+          "description": "Daily activities, meals and reservations have not yet been selected. Four-night Tokyo stay is tentative.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "tags": [
+        "Tokyo"
+      ],
+      "title": "Explore Tokyo",
+      "place": "Tokyo",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Open for planning",
+          "location": "Tokyo",
+          "description": "Daily activities, meals and reservations have not yet been selected. Four-night Tokyo stay is tentative.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "tags": [
+        "Tokyo"
+      ],
+      "title": "Explore Tokyo",
+      "place": "Tokyo",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Open for planning",
+          "location": "Tokyo",
+          "description": "Daily activities, meals and reservations have not yet been selected. Four-night Tokyo stay is tentative.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "tags": [
+        "Tokyo",
+        "Sapporo",
+        "Travel"
+      ],
+      "title": "From city streets to ice lights",
+      "place": "Tokyo → CTS → Lake Shikotsu → Sapporo",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Check-out & airport transfer",
+          "location": "Tokyo accommodation → Haneda HND",
+          "description": "Property, checkout time and transfer remain to be selected.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Travel day · Details private",
+          "title": "Fly to Hokkaido",
+          "location": "Tokyo → Hokkaido",
+          "description": "Domestic flight option under consideration; not booked. Specific flight arrangements are kept privately.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "After arrival · Time private",
+          "title": "Arrive & prepare for winter",
+          "location": "New Chitose CTS",
+          "description": "Collect luggage and change into winter clothing.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "By approximately 12:45–1:00 PM JST",
+          "title": "Train & luggage storage",
+          "location": "CTS → JR Chitose Station",
+          "description": "Estimated timing depends on arrival, baggage and locker availability. Choose a train that stops at Chitose; about 7 minutes on the train, plus walking and waiting. Confirm sufficient lockers and backup storage.",
+          "status": "Tentative",
+          "refs": [
+            "rail",
+            "locker"
+          ]
+        },
+        {
+          "time": "Time TBD · Before shuttle boarding",
+          "title": "Lunch",
+          "location": "Chitose Station area",
+          "description": "Allow time for lunch before reaching the bus stop. Venue and exact timing remain open.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "Before 2:10 PM JST",
+          "title": "Reach the shuttle stop",
+          "location": "Chitose Station east exit · Stop 7",
+          "description": "The itinerary allows an early arrival before the 2:20 PM bus; operator requires arrival at least 10 minutes before departure.",
+          "status": "Tentative",
+          "refs": [
+            "bus"
+          ]
+        },
+        {
+          "time": "2:20–3:05 PM JST",
+          "title": "Hyoto Blue Liner · Outbound",
+          "location": "Chitose Station → Lake Shikotsu Onsen",
+          "description": "Advance reservation required; not booked. Recheck travel-date timetable and weather.",
+          "status": "Tentative",
+          "refs": [
+            "bus"
+          ]
+        },
+        {
+          "time": "3:05–6:10 PM JST",
+          "title": "Lake Shikotsu Ice Festival",
+          "location": "Lake Shikotsu",
+          "description": "Illumination from 4:30 PM per the itinerary. Leave time to walk back to the stop. Admission is separate from bus fare; admission arrangements remain open.",
+          "status": "Tentative",
+          "refs": [
+            "festival"
+          ]
+        },
+        {
+          "time": "6:20 PM JST",
+          "title": "Return shuttle check-in",
+          "location": "Lake Shikotsu Onsen shuttle stop",
+          "description": "Be at the stop 10 minutes before departure.",
+          "status": "Tentative",
+          "refs": [
+            "bus"
+          ]
+        },
+        {
+          "time": "6:30–7:15 PM JST",
+          "title": "Hyoto Blue Liner · Return",
+          "location": "Lake Shikotsu Onsen → Chitose Station",
+          "description": "Advance reservation required; not booked. The bus cannot store luggage during the festival visit.",
+          "status": "Tentative",
+          "refs": [
+            "bus"
+          ]
+        },
+        {
+          "time": "After 7:15 PM JST · End TBD",
+          "title": "Collect bags & train to Sapporo",
+          "location": "Chitose Station → Sapporo",
+          "description": "Exact train and hotel arrival time remain to be selected.",
+          "status": "Tentative",
+          "refs": [
+            "rail"
+          ]
+        },
+        {
+          "time": "Time TBD",
+          "title": "Sapporo check-in",
+          "location": "Sapporo · Property TBD",
+          "description": "Tentative two-night stay, February 18–19. Accommodation is not booked.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "tags": [
+        "Sapporo"
+      ],
+      "title": "A day in Sapporo",
+      "place": "Sapporo",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Open for planning",
+          "location": "Sapporo",
+          "description": "Full day in Sapporo. Activities, meals and reservations remain to be selected.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "tags": [
+        "Sapporo",
+        "Niseko",
+        "Travel"
+      ],
+      "title": "Into the mountains",
+      "place": "Sapporo → Niseko",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Sapporo check-out",
+          "location": "Sapporo · Property TBD",
+          "description": "Accommodation and checkout time remain open.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Transfer to Niseko",
+          "location": "Sapporo → Niseko",
+          "description": "Transport service, departure and arrival times remain to be selected.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Niseko check-in",
+          "location": "Niseko · Property TBD",
+          "description": "Start of the tentative five-night stay, February 20–24. Accommodation is not booked.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Prepare for skiing",
+          "location": "Niseko",
+          "description": "Preparation details remain to be planned.",
+          "status": "Tentative",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "tags": [
+        "Niseko"
+      ],
+      "title": "Mountain days, your way",
+      "place": "Niseko",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Skiing, rest or other activities",
+          "location": "Niseko",
+          "description": "Available day; the specific activity, ski area, tickets and reservations have not been selected.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "tags": [
+        "Niseko"
+      ],
+      "title": "Mountain days, your way",
+      "place": "Niseko",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Skiing, rest or other activities",
+          "location": "Niseko",
+          "description": "Available day; the specific activity, ski area, tickets and reservations have not been selected.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "tags": [
+        "Niseko"
+      ],
+      "title": "Mountain days, your way",
+      "place": "Niseko",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Skiing, rest or other activities",
+          "location": "Niseko",
+          "description": "Available day; the specific activity, ski area, tickets and reservations have not been selected.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "tags": [
+        "Niseko"
+      ],
+      "title": "Mountain days, your way",
+      "place": "Niseko",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Skiing, rest or other activities",
+          "location": "Niseko",
+          "description": "Available day; the specific activity, ski area, tickets and reservations have not been selected.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "tags": [
+        "Niseko",
+        "Tokyo",
+        "Travel"
+      ],
+      "title": "Back to Tokyo",
+      "place": "Niseko → CTS → Tokyo / Haneda area",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Niseko check-out",
+          "location": "Niseko · Property TBD",
+          "description": "Property and checkout time remain open.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Airport transfer",
+          "location": "Niseko → New Chitose CTS",
+          "description": "Operator and departure time remain to be selected.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Travel day · Details private",
+          "title": "Return flight to Tokyo",
+          "location": "New Chitose CTS → Tokyo · Airport TBD",
+          "description": "Return to Tokyo ahead of the international journey home. Flight remains to be selected.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Time TBD",
+          "title": "Transfer & final-night check-in",
+          "location": "Tokyo arrival airport → Haneda-area hotel",
+          "description": "Tentative overnight near Haneda ahead of the international departure. Hotel and transfer remain open.",
+          "status": "Open for planning",
+          "refs": []
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "tags": [
+        "Tokyo",
+        "Travel"
+      ],
+      "title": "Homeward bound",
+      "place": "Tokyo → Atlanta",
+      "events": [
+        {
+          "time": "Time TBD",
+          "title": "Check-out & airport transfer",
+          "location": "Tokyo area",
+          "description": "Accommodation and ground transfer arrangements remain open.",
+          "status": "Open for planning",
+          "refs": []
+        },
+        {
+          "time": "Travel day · Details private",
+          "title": "Return home",
+          "location": "Tokyo → Atlanta",
+          "description": "Return journey on February 26. Specific flight arrangements are kept in the private itinerary.",
+          "status": "Booked",
+          "refs": []
+        }
+      ]
+    }
+  ],
+  "flights": [
+    [
+      "Outbound journey",
+      "Atlanta",
+      "Tokyo",
+      "Feb 13",
+      "Feb 14",
+      "Booked",
+      "Overnight travel · Specific flight details kept privately"
+    ],
+    [
+      "Hokkaido journey",
+      "Tokyo",
+      "Hokkaido",
+      "Feb 18",
+      "Feb 18",
+      "Tentative",
+      "Domestic flight not booked · Details kept privately"
+    ],
+    [
+      "Return to Tokyo",
+      "Hokkaido",
+      "Tokyo",
+      "Feb 25",
+      "Feb 25",
+      "Open for planning",
+      "Flight remains to be selected"
+    ],
+    [
+      "Homeward journey",
+      "Tokyo",
+      "Atlanta",
+      "Feb 26",
+      "Feb 26",
+      "Booked",
+      "Specific flight details kept privately"
+    ]
+  ]
+}
+

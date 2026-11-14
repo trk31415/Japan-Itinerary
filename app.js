@@ -1,7 +1,7 @@
 const links={bus:['Blue Liner timetable & reservations','https://www.sakkan.com/lp/hyoutou-bus/'],festival:['Official Lake Shikotsu Ice Festival listing','https://www.1000sai-chitose.or.jp/event/detail_1130.html'],rail:['JR Hokkaido airport trains & timetables','https://www.jrhokkaido.co.jp/global/english/train/'],locker:['Station locker information','https://www.jrhokkaido.co.jp/network/locker/']};
 
 (async()=>{
-const response=await fetch('public-itinerary.json');
+const response=await fetch('public-itinerary.json?v=flight-times-2');
 if(!response.ok)throw Error('Itinerary unavailable');
 const {days,flights}=await response.json();
 const badge=s=>`<span class="badge ${s==='Booked'?'booked':''}">${s}</span>`;
@@ -17,7 +17,7 @@ document.querySelector('#date-jump').onchange=ev=>jump(ev.target.value);
 document.querySelectorAll('[data-place]').forEach(a=>a.onclick=()=>filter(a.dataset.place));
 document.querySelectorAll('a[href^="#day-"]').forEach(a=>a.onclick=ev=>{ev.preventDefault();jump(a.hash.replace('#day-',''));history.replaceState(null,'',a.hash)});
 if(location.hash.startsWith('#day-'))jump(location.hash.replace('#day-',''));
-document.querySelector('#flight-list').innerHTML=flights.map(f=>`<article class="flight"><div class="flight-head">${f[0]} ${badge(f[5])}</div><div class="airports">${f[1]} <span>→</span> ${f[2]}</div><p>${f[6]}</p><p><b>Departure date</b> ${f[3]}</p><p><b>Arrival date</b> ${f[4]}</p></article>`).join('');
+document.querySelector('#flight-list').innerHTML=flights.map(f=>`<article class="flight"><div class="flight-head">${f[0]} ${badge(f[5])}</div><div class="airports">${f[1]} <span>→</span> ${f[2]}</div><p>${f[6]}</p><p><b>Departs</b> ${f[3]}</p><p><b>Arrives</b> ${f[4]}</p></article>`).join('');
 document.querySelector('#source-note').textContent='Official festival, Blue Liner, locker and rail timetable links checked November 14, 2026. Festival and shuttle pages cover January 30–February 23, 2027. Exact February 2027 trains remain unconfirmed; the planned shuttle times come from the master itinerary. Recheck before booking.';
 
 

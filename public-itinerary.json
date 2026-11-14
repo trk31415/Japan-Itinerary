@@ -1,7 +1,7 @@
 {
   "audience": "public",
   "lastUpdated": "2026-11-14",
-  "privacy": "Only this public itinerary is published. Flight numbers, airlines, exact flight times, hotel names and addresses, booking references, passenger details and private notes stay in the private itinerary.",
+  "privacy": "Public itinerary includes flight departure and arrival times. Flight numbers, hotel names and addresses, booking references, passenger details and private notes stay in the private itinerary.",
   "days": [
     {
       "n": 13,
@@ -9,13 +9,29 @@
         "Travel"
       ],
       "title": "The journey begins",
-      "place": "Atlanta → Tokyo",
+      "place": "Atlanta → Detroit → Tokyo",
       "events": [
         {
-          "time": "Travel day · Details private",
-          "title": "Depart for Japan",
-          "location": "Atlanta → Tokyo",
-          "description": "Overnight journey; arrival in Japan on February 14.",
+          "time": "9:10–11:11 AM EST",
+          "title": "Flight to Detroit",
+          "location": "Atlanta ATL → Detroit DTW",
+          "description": "Depart Atlanta and connect in Detroit.",
+          "status": "Booked",
+          "refs": []
+        },
+        {
+          "time": "11:11 AM–2:10 PM EST",
+          "title": "Detroit connection",
+          "location": "Detroit DTW",
+          "description": "2 hours 59 minutes between booked flights.",
+          "status": "Booked",
+          "refs": []
+        },
+        {
+          "time": "2:10 PM EST → Feb 14, 5:45 PM JST",
+          "title": "Overnight flight to Japan",
+          "location": "Detroit DTW → Tokyo Haneda HND",
+          "description": "Arrives the following day in Japan. All times are local.",
           "status": "Booked",
           "refs": []
         }
@@ -31,10 +47,10 @@
       "place": "Haneda → Tokyo",
       "events": [
         {
-          "time": "Arrival day · Details private",
+          "time": "5:45 PM JST · Arrival",
           "title": "Arrive in Japan",
-          "location": "Tokyo",
-          "description": "Arrive in Japan and continue to accommodation. Specific flight arrangements are kept privately.",
+          "location": "Tokyo Haneda HND",
+          "description": "Arrive on the overnight flight from Detroit, then continue to accommodation.",
           "status": "Booked",
           "refs": []
         },
@@ -129,15 +145,15 @@
           "refs": []
         },
         {
-          "time": "Travel day · Details private",
+          "time": "10:00–11:35 AM JST",
           "title": "Fly to Hokkaido",
-          "location": "Tokyo → Hokkaido",
-          "description": "Domestic flight option under consideration; not booked. Specific flight arrangements are kept privately.",
+          "location": "Haneda HND → New Chitose CTS",
+          "description": "Domestic flight option under consideration; duration 1 hour 35 minutes. Not booked.",
           "status": "Tentative",
           "refs": []
         },
         {
-          "time": "After arrival · Time private",
+          "time": "11:35 AM JST · End TBD",
           "title": "Arrive & prepare for winter",
           "location": "New Chitose CTS",
           "description": "Collect luggage and change into winter clothing.",
@@ -394,7 +410,7 @@
           "refs": []
         },
         {
-          "time": "Travel day · Details private",
+          "time": "Time TBD",
           "title": "Return flight to Tokyo",
           "location": "New Chitose CTS → Tokyo · Airport TBD",
           "description": "Return to Tokyo ahead of the international journey home. Flight remains to be selected.",
@@ -418,7 +434,7 @@
         "Travel"
       ],
       "title": "Homeward bound",
-      "place": "Tokyo → Atlanta",
+      "place": "Tokyo → Detroit → Atlanta",
       "events": [
         {
           "time": "Time TBD",
@@ -429,10 +445,26 @@
           "refs": []
         },
         {
-          "time": "Travel day · Details private",
-          "title": "Return home",
-          "location": "Tokyo → Atlanta",
-          "description": "Return journey on February 26. Specific flight arrangements are kept in the private itinerary.",
+          "time": "5:35 PM JST → 3:33 PM EST",
+          "title": "Flight to Detroit",
+          "location": "Tokyo Haneda HND → Detroit DTW",
+          "description": "Departure and arrival are both February 26, local time. Arrival clock time is earlier because of the time-zone change.",
+          "status": "Booked",
+          "refs": []
+        },
+        {
+          "time": "3:33–5:45 PM EST",
+          "title": "Detroit connection",
+          "location": "Detroit DTW",
+          "description": "2 hours 12 minutes between booked flights.",
+          "status": "Booked",
+          "refs": []
+        },
+        {
+          "time": "5:45–7:48 PM EST",
+          "title": "Flight to Atlanta",
+          "location": "Detroit DTW → Atlanta ATL",
+          "description": "Arrive home in Atlanta on February 26.",
           "status": "Booked",
           "refs": []
         }
@@ -441,40 +473,58 @@
   ],
   "flights": [
     [
-      "Outbound journey",
-      "Atlanta",
-      "Tokyo",
-      "Feb 13",
-      "Feb 14",
+      "Flight to Detroit",
+      "ATL",
+      "DTW",
+      "Feb 13 · 9:10 AM EST",
+      "Feb 13 · 11:11 AM EST",
       "Booked",
-      "Overnight travel · Specific flight details kept privately"
+      "Atlanta → Detroit"
     ],
     [
-      "Hokkaido journey",
-      "Tokyo",
-      "Hokkaido",
-      "Feb 18",
-      "Feb 18",
+      "Overnight flight to Japan",
+      "DTW",
+      "HND",
+      "Feb 13 · 2:10 PM EST",
+      "Feb 14 · 5:45 PM JST",
+      "Booked",
+      "Detroit → Tokyo Haneda · Arrives next day"
+    ],
+    [
+      "Domestic flight option",
+      "HND",
+      "CTS",
+      "Feb 18 · 10:00 AM JST",
+      "Feb 18 · 11:35 AM JST",
       "Tentative",
-      "Domestic flight not booked · Details kept privately"
+      "Tokyo Haneda → New Chitose · Not booked"
     ],
     [
-      "Return to Tokyo",
-      "Hokkaido",
-      "Tokyo",
-      "Feb 25",
-      "Feb 25",
+      "Return flight · TBD",
+      "CTS",
+      "TBD",
+      "Feb 25 · Time TBD",
+      "Feb 25 · Time TBD",
       "Open for planning",
-      "Flight remains to be selected"
+      "New Chitose → Tokyo · Flight remains to be selected"
     ],
     [
-      "Homeward journey",
-      "Tokyo",
-      "Atlanta",
-      "Feb 26",
-      "Feb 26",
+      "Flight to Detroit",
+      "HND",
+      "DTW",
+      "Feb 26 · 5:35 PM JST",
+      "Feb 26 · 3:33 PM EST",
       "Booked",
-      "Specific flight details kept privately"
+      "Tokyo Haneda → Detroit · Same calendar date"
+    ],
+    [
+      "Flight to Atlanta",
+      "DTW",
+      "ATL",
+      "Feb 26 · 5:45 PM EST",
+      "Feb 26 · 7:48 PM EST",
+      "Booked",
+      "Detroit → Atlanta"
     ]
   ]
 }

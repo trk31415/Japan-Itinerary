@@ -2,7 +2,7 @@ const links={bus:['Blue Liner timetable & reservations','https://www.sakkan.com/
 Object.assign(links,{"kappa": ["Kappa Liner timetable, boarding map & reservations", "https://www.jotetsu.co.jp/bus/kappa_liner/index.html"], "snowshoe": ["FRILUFSLIV snowshoe tour & booking request", "https://www.friluftsliv.website/english/activities/snowshoe-tour/"], "snowshoeMap": ["Google Maps: bus stop to snowshoe meeting point", "https://www.google.com/maps/dir/?api=1&origin=Jozankei+Yunomachi+bus+stop+Sapporo&destination=FRILUFSLIV+Nono+Terrace+Jozankei&travelmode=walking"], "hoheikyo": ["Hoheikyo Onsen visitor information", "https://jozankei.jp/en/oneday/hoheikyo-onsen/"], "hoheikyoMap": ["Google Maps: Hoheikyo Onsen", "https://www.google.com/maps/search/?api=1&query=Hoheikyo+Onsen+Sapporo"], "yukitouro": ["New Yukitouro 2027: hours & admission", "https://jozankei.jp/en/event/yukitouro2027/"], "yukitouroMap": ["Google Maps: Jozankei Shrine", "https://www.google.com/maps/search/?api=1&query=Jozankei+Shrine"], "susukino": ["Susukino dining & nightlife guide", "https://visit.sapporo.travel/discover/city/susukino/"], "susukinoMap": ["Google Maps: Susukino area (use operator map for bus stop)", "https://www.google.com/maps/search/?api=1&query=Susukino+Station+Sapporo"], "lights": ["Sapporo White Illumination official guide", "https://www.sapporo.travel/en/event/event-list/sapporo_white_illumination/"]});
 
 (async()=>{
-const response=await fetch('public-itinerary.json?v=jozankei-feb20-20261114');
+const response=await fetch('public-itinerary.json?v=seafood-dinner-20261114');
 if(!response.ok)throw Error('Itinerary unavailable');
 const {days,flights}=await response.json();
 const badge=s=>`<span class="badge ${s==='Booked'?'booked':''}">${s}</span>`;

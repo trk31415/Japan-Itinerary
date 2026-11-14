@@ -253,18 +253,37 @@
           "time": "Around 8:30 PM JST",
           "title": "Sapporo check-in",
           "location": "Sapporo",
-          "description": "Tentative two-night stay, February 18–20; second-night availability and price still need confirmation. Allow time to reach accommodation. Not booked.",
+          "description": "Tentative two-night stay, February 18–20; second-night availability and price still need confirmation. Allow time to reach accommodation. Not booked. Allow about 20 minutes to drop bags and freshen up before dinner.",
           "status": "Tentative",
           "refs": []
         },
         {
-          "time": "Evening · Optional",
-          "title": "Winter illuminations & dinner",
-          "location": "Sapporo city centre / Susukino",
-          "description": "Optional evening: station south plaza lights until midnight; Akapla, Red Brick Office exterior and Minami 1-jo displays until 10 PM. Choose according to energy after check-in.",
+          "time": "Around 8:50–9 PM JST",
+          "title": "Head to dinner",
+          "location": "Susukino / Sapporo",
+          "description": "Travel from accommodation to the selected Susukino seafood izakaya. Exact route and walking or taxi time depend on the restaurant.",
           "status": "Tentative",
           "refs": [
-            "lights",
+            "susukino"
+          ]
+        },
+        {
+          "time": "9–10:30 PM JST · Approx.",
+          "title": "Seafood izakaya dinner",
+          "location": "Susukino / Sapporo",
+          "description": "Share seafood dishes at a casual Japanese pub in Susukino after hotel check-in. Restaurant remains to be selected; confirm opening hours, last food orders and a table for the group. Not reserved. Timing depends on the festival transfer and hotel arrival.",
+          "status": "Tentative",
+          "refs": [
+            "susukino"
+          ]
+        },
+        {
+          "time": "After 10:30 PM JST · Optional",
+          "title": "Return or enjoy a drink",
+          "location": "Susukino / Sapporo",
+          "description": "Return to accommodation, or enjoy an optional drink if the group has energy.",
+          "status": "Tentative",
+          "refs": [
             "susukino"
           ]
         }

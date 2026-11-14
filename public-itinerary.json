@@ -230,39 +230,176 @@
           ]
         },
         {
-          "time": "After 7:15 PM JST · End TBD",
-          "title": "Collect bags & train to Sapporo",
-          "location": "Chitose Station → Sapporo",
-          "description": "Exact train and hotel arrival time remain to be selected.",
+          "time": "7:15–7:45 PM JST · Approx.",
+          "title": "Collect bags & board train",
+          "location": "Chitose Station",
+          "description": "Collect stored luggage and board a train to Sapporo. Exact service remains to be selected.",
           "status": "Tentative",
           "refs": [
             "rail"
           ]
         },
         {
-          "time": "Time TBD",
+          "time": "8:00–8:15 PM JST · Approx.",
+          "title": "Arrive in Sapporo",
+          "location": "JR Sapporo Station",
+          "description": "Planning estimate including approximately 30 minutes on the train; depends on bus and rail conditions.",
+          "status": "Tentative",
+          "refs": [
+            "rail"
+          ]
+        },
+        {
+          "time": "Around 8:30 PM JST",
           "title": "Sapporo check-in",
-          "location": "Sapporo · Property TBD",
-          "description": "Tentative two-night stay, February 18–19. Accommodation is not booked.",
-          "status": "Open for planning",
+          "location": "Sapporo",
+          "description": "Tentative one-night stay, February 18–19. Allow time to reach accommodation. Not booked.",
+          "status": "Tentative",
           "refs": []
+        },
+        {
+          "time": "Evening · Optional",
+          "title": "Winter illuminations & dinner",
+          "location": "Sapporo city centre / Susukino",
+          "description": "Optional evening: station south plaza lights until midnight; Akapla, Red Brick Office exterior and Minami 1-jo displays until 10 PM. Choose according to energy after check-in.",
+          "status": "Tentative",
+          "refs": [
+            "lights",
+            "susukino"
+          ]
         }
       ]
     },
     {
       "n": 19,
       "tags": [
-        "Sapporo"
+        "Sapporo",
+        "Jozankei",
+        "Travel"
       ],
-      "title": "A day in Sapporo",
-      "place": "Sapporo",
+      "title": "Snowshoeing, hot springs & winter lights",
+      "place": "Sapporo → Jozankei → Hoheikyo → Jozankei",
       "events": [
         {
-          "time": "Time TBD",
-          "title": "Open for planning",
+          "time": "7:45–8:30 AM JST",
+          "title": "Breakfast & Sapporo check-out",
           "location": "Sapporo",
-          "description": "Full day in Sapporo. Activities, meals and reservations remain to be selected.",
-          "status": "Open for planning",
+          "description": "Have breakfast and check out with luggage.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "Before 9:18 AM JST",
+          "title": "Reach the Kappa Liner stop",
+          "location": "Susukino",
+          "description": "Walk to the designated street boarding stop. Confirm the exact stop on the operator map and arrive early.",
+          "status": "Tentative",
+          "refs": [
+            "kappa",
+            "susukinoMap"
+          ]
+        },
+        {
+          "time": "9:18 AM JST → Around 10:10 AM",
+          "title": "Kappa Liner · Proposed bus",
+          "location": "Susukino → Jozankei",
+          "description": "Proposed departure from the published timetable; recheck February 19 service. Select the stop nearest the overnight hotel. Advance reservation required; not booked.",
+          "status": "Tentative",
+          "refs": [
+            "kappa"
+          ]
+        },
+        {
+          "time": "10:15–10:45 AM JST",
+          "title": "Hotel luggage drop",
+          "location": "Jozankei",
+          "description": "Leave bags before check-in. Hotel remains to be chosen; confirm morning storage and the route to the snowshoe meeting point.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "10:45–11:45 AM JST",
+          "title": "Early lunch",
+          "location": "Jozankei",
+          "description": "Restaurant to be selected; allow time to eat before the activity.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "11:45 AM–12:15 PM JST",
+          "title": "Reach the snowshoe meeting point",
+          "location": "FRILUFSLIV · Nono Terrace",
+          "description": "Meet at Noasobi Base FRILUFSLIV inside Nono Terrace. Google Maps shows about 250 m / 4 minutes from Jozankei Yunomachi; allow extra time in snow. This is the bus-stop route: the walk after dropping bags depends on the hotel. Arrive by 12:15 PM.",
+          "status": "Tentative",
+          "refs": [
+            "snowshoe",
+            "snowshoeMap"
+          ]
+        },
+        {
+          "time": "12:30–2 PM JST",
+          "title": "FRILUFSLIV guided snowshoeing",
+          "location": "Jozankei forest",
+          "description": "Published 12:30 PM session, about 90 minutes including meeting and dismissal. Includes forest exploration, bonfire and roasted marshmallows. Listed adult price: JPY 7,500; rental boots JPY 500 extra; cash only. February 19 availability and English guiding remain unconfirmed. Not booked.",
+          "status": "Tentative",
+          "refs": [
+            "snowshoe"
+          ]
+        },
+        {
+          "time": "2–2:30 PM JST",
+          "title": "Transfer to Hoheikyo",
+          "location": "Jozankei → Hoheikyo Onsen",
+          "description": "Arrange local transport in advance through the hotel or a transfer provider; this time includes pickup buffer. Do not rely on the Kappa Liner for local journeys within Jozankei.",
+          "status": "Tentative",
+          "refs": [
+            "kappa",
+            "hoheikyoMap"
+          ]
+        },
+        {
+          "time": "2:30–4:15 PM JST",
+          "title": "Hoheikyo Onsen · Daylight soak",
+          "location": "Hoheikyo Onsen",
+          "description": "Enjoy outdoor rock baths and snowy scenery while there is daylight. Includes changing and breaks. Listed adult admission: JPY 1,300; towels extra.",
+          "status": "Tentative",
+          "refs": [
+            "hoheikyo"
+          ]
+        },
+        {
+          "time": "4:15–5 PM JST",
+          "title": "Return transfer & hotel check-in",
+          "location": "Hoheikyo → Jozankei",
+          "description": "Prearrange return transport. Overnight hotel remains to be selected, prioritizing excellent bath views.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "Around 6 PM JST",
+          "title": "Ryokan dinner",
+          "location": "Jozankei",
+          "description": "Choose a stay with dinner if desired; the meal and seating time depend on the hotel plan.",
+          "status": "Tentative",
+          "refs": []
+        },
+        {
+          "time": "7:30–8:30 PM JST",
+          "title": "New Yukitouro 2027",
+          "location": "Jozankei Shrine & hot spring town",
+          "description": "Published event hours: 6–9:30 PM, last entry 9:15 PM. Runs January 20–February 28, 2027. Shrine nighttime admission is free and exclusive to overnight guests with an invitation from their accommodation; confirm the hotel provides it. Weather may affect operation.",
+          "status": "Tentative",
+          "refs": [
+            "yukitouro",
+            "yukitouroMap"
+          ]
+        },
+        {
+          "time": "After 8:30 PM JST",
+          "title": "Relax & overnight in Jozankei",
+          "location": "Jozankei",
+          "description": "Tentative one-night stay, February 19–20. Hotel and room arrangement remain open.",
+          "status": "Tentative",
           "refs": []
         }
       ]
@@ -270,17 +407,17 @@
     {
       "n": 20,
       "tags": [
-        "Sapporo",
+        "Jozankei",
         "Niseko",
         "Travel"
       ],
       "title": "Into the mountains",
-      "place": "Sapporo → Niseko",
+      "place": "Jozankei → Niseko",
       "events": [
         {
           "time": "Time TBD",
-          "title": "Sapporo check-out",
-          "location": "Sapporo · Property TBD",
+          "title": "Jozankei check-out",
+          "location": "Jozankei · Property TBD",
           "description": "Accommodation and checkout time remain open.",
           "status": "Open for planning",
           "refs": []
@@ -288,8 +425,8 @@
         {
           "time": "Time TBD",
           "title": "Transfer to Niseko",
-          "location": "Sapporo → Niseko",
-          "description": "Transport service, departure and arrival times remain to be selected.",
+          "location": "Jozankei → Niseko",
+          "description": "Route, transport provider, departure and arrival times remain to be selected. No direct service is assumed.",
           "status": "Open for planning",
           "refs": []
         },
@@ -528,4 +665,3 @@
     ]
   ]
 }
-
